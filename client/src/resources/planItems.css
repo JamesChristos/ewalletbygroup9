@@ -1,0 +1,50 @@
+.plan-item-card {
+  margin-bottom: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.plan-item-card h3 {
+  color: #333;
+}
+
+.plan-item-card p {
+  color: #666;
+}
+
+/* planItems.css */
+.plan-item-card {
+  height: 100%;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  transition: box-shadow 0.3s ease;
+  display: flex;
+  flex-direction: column;
+
+  &:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+
+  h3 {
+    color: #3498db;
+    margin-bottom: 10px;
+  }
+
+  p {
+    margin-bottom: 5px;
+    color: #555;
+  }
+
+  .ant-statistic-title {
+    font-size: 14px;
+    color: #2ecc71;
+    margin-bottom: 8px;
+  }
+
+  .ant-statistic-content {
+    font-size: 16px;
+    color: #333;
+  }
+}

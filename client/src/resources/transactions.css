@@ -1,0 +1,343 @@
+.filter {
+    box-shadow: 0 0 3px gray;
+    padding: 15px 20px;
+    border-radius: 10px;
+
+}
+
+.transaction-form {
+    color: gray;
+}
+
+.view-switch {
+    border: 1px solid rgb(215, 215, 215);
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.anticon_svg {
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.active-icon {
+    color: black;
+}
+
+.inactive-icon {
+    color: gray;
+}
+
+.ant-picker-range {
+    border: 1px solid rgb(213, 213, 213);
+}
+
+@media screen and (max-width: 768px) {
+    .filter {
+        overflow: scroll;
+    }
+}
+
+.white-icon {
+    color: white;
+}
+
+.category-icon {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    margin-right: 8px;
+}
+
+.category-icon-data-tree {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+.category-icon {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    margin-right: 8px;
+    font-size: 16px;
+}
+
+/* Example styles for different categories */
+.housing {
+    background-color: #ff8d23;
+    /* Example background color for groceries */
+}
+
+.shopping {
+    background-color: #5bc0de;
+    /* Example background color for restaurants */
+}
+
+.food-drink {
+    background-color: #d9534f;
+    /* Example background color for home */
+}
+
+.transportation {
+    background-color: #c1c1c1;
+    /* Example background color for home */
+}
+
+.vehicle {
+    background-color: #8c00cd;
+}
+
+.Life-entertainment {
+    background-color: #5eef68;
+}
+
+.Finan {
+    background-color: #3cb38f;
+}
+
+.income {
+    background-color: #ffdf53;
+}
+
+.OCR_button {
+    background-color: #161c51;
+    border-radius: 5px;
+    color: aliceblue;
+    padding: 8px 10px;
+    text-align: center;
+    display: inline-block;
+    font-size: 14px;
+}
+
+.filter {
+    padding: 20px;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.filter h6 {
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.filter .d-flex {
+    display: flex;
+}
+
+.filter .d-felx {
+    display: flex;
+    flex-direction: column;
+}
+
+.filter .mt-2 {
+    margin-top: 2px;
+}
+
+.filter button.primary {
+    background-color: #161c51;
+    color: #fff;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.table-analytics {
+    margin-top: 20px;
+}
+
+.report-header {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.table {
+    width: 100%;
+}
+
+/* Add styling for your table, for example: */
+
+.ant-table {
+    font-size: 14px;
+}
+
+.ant-table-thead th {
+    background-color: #161c51;
+    color: #fff;
+}
+
+.ant-table-tbody td {
+    border-bottom: 1px solid gray;
+}
+
+.category-icon {
+    margin-right: 5px;
+}
+
+.report-header {
+    font-size: 34px;
+    font-weight: bold;
+    text-align: center;
+    color: #161c51;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Add these styles to your transactions.css file or create a new CSS file */
+
+.budget-table {
+    margin-top: 20px;
+}
+
+.budget-item {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.budget-item:hover {
+    background-color: #f5f5f5;
+}
+
+.budget-item-details {
+    flex: 1;
+    margin-right: 10px;
+}
+
+.budget-item-category {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.budget-item-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.budget-item-info span {
+    margin-right: 10px;
+}
+
+.budget-item-actions {
+    display: flex;
+    align-items: center;
+}
+
+.budget-item-actions button {
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+/* PlanItem.css */
+
+.plan-item-card {
+    background-color: #f0f0f0;
+    border: 1px solid #d9d9d9;
+    padding: 16px;
+    margin-bottom: 16px;
+}
+
+.plan-item-card h3 {
+    color: #1890ff;
+}
+
+.plan-item-card p {
+    color: #161c51;
+    margin-bottom: 8px;
+}
+
+.plan-item-card button {
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+}
+
+.plan-item-card button:hover {
+    background-color: gray;
+    /* Darker shade on hover */
+}
+
+.plan-item-card {
+    position: relative;
+}
+
+.plan-item-header {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 10px;
+    z-index: 1;
+}
+
+/* Remove background color for the Options button */
+.plan-item-header .ant-btn-primary {
+    background-color: transparent;
+    border: none;
+    color: #1890ff;
+    /* Set the desired text color */
+}
+
+/* Style for the Delete button (optional) */
+.plan-item-header .ant-btn-danger {
+    background-color: transparent;
+    border: none;
+}
+
+/* transactions.css (or any other appropriate CSS file) */
+
+.plan-item-card {
+    position: relative;
+}
+
+.plan-item-header {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 10px;
+    z-index: 1;
+}
+
+/* Remove background color for the Options button */
+.plan-item-header .ant-btn-primary {
+    background-color: transparent;
+    color: #1890ff;
+    /* Set the desired text color */
+}
+
+/* Style for the Delete button (optional) */
+.plan-item-header .ant-btn-danger {
+    background-color: transparent;
+    border: none;
+    /* Set the desired text color */
+}
+
+/* Position the dropdown menu below the header */
+.plan-item-header .ant-dropdown {
+    position: absolute;
+    top: 100%;
+    right: 0;
+}
+
+/* Style for the dropdown menu items (optional) */
+.plan-item-header .ant-dropdown-menu-item {
+    padding: 8px 15px;
+    color: #1890ff;
+}

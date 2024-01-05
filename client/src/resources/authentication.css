@@ -1,0 +1,31 @@
+.a1 {
+    color: #c1c3d2;
+}
+  
+.custom-button {
+    background-color: #00AA70; /* Change to your desired background color */
+    color: #fff; /* Text color */
+    transition: background-color 0.3s; /* Transition for smooth color change on hover */
+}
+
+.custom-button:hover {
+    background-color: #00915f!important; 
+}
+
+.register {
+  background: transparent;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+}
+
+.lottie-player {
+  max-width: 70%; 
+  height: auto; 
+  margin-left: 100px;
+}
+
+.header-lottie {
+  padding-left: 80px;
+}
