@@ -61,7 +61,7 @@ router.post('/forget-password', async function (req, res) {
       id: oldUser._id,
     };
     const token = jwt.sign(payload, secret, { expiresIn: '15m' });
-    const link = `http://localhost:3000/reset-password/${oldUser._id}/${token}`;
+    const link = `https://ewalletbygroup9-fabd22eb4450.herokuapp.com/reset-password/${oldUser._id}/${token}`;
     console.log(link);
 
     const mailOptions = {
